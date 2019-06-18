@@ -1,0 +1,53 @@
+<svg class="background">
+  
+  <text id="hours" class="time" />
+  <text id="minutes" class="time" />
+  <text id="date" />
+  
+  <svg class="container">
+    <rect class="divider" />
+  </svg>
+  
+  <svg id="hrCircle">
+    <circle class="hrCircleOuter">
+      <animate id="hrAnimation" attributeName="fill" easing="ease-in-out" to="#2f2f2f" from="#821414" dur=".5" final="restore" repeatCount="9999" />
+    </circle>
+    <circle class="hrCircleInner"/>
+  </svg>
+  <image href="icons/heart.png" class="heart" />
+  <text id="heartRate" />
+  
+  <image href="icons/battery.png" class="icon battery" />
+  <text id="battery" />
+  <svg id="batteryLevel">
+    <rect id="batteryMeter" />
+  </svg>
+  
+  <image href="icons/morrowlogo.png" id="logo" />
+  
+  <image href="icons/steps.png"  class="icon steps" />
+  <text id="stepsValue" class="stats" />
+  <text id="stepsProgressEmpty" class="stats progress empty">//////////</text>
+  <text id="stepsProgress" class="stats progress" />
+  
+  <image href="icons/distance.png"  class="icon distance" />
+  <text id="distanceValue" class="stats" />
+  <text id="distanceProgressEmpty" class="stats progress empty">//////////</text>
+  <text id="distanceProgress" class="stats progress" />
+  
+  <image href="icons/calories.png"  class="icon calories" />
+  <text id="caloriesValue" class="stats" />
+  <text id="caloriesProgressEmpty" class="stats progress empty">//////////</text>
+  <text id="caloriesProgress" class="stats progress" />
+  
+  <image href="icons/active.png"  class="icon active" />
+  <text id="activeMinutesValue" class="stats" />
+  <text id="activeMinutesProgressEmpty" class="stats progress empty">//////////</text>
+  <text id="activeMinutesProgress" class="stats progress" />
+  
+  <image href="icons/elevation.png"  class="icon elevation" />
+  <text id="elevationGainValue" class="stats" />
+  <text id="elevationGainProgressEmpty" class="stats progress empty">//////////</text>
+  <text id="elevationGainProgress" class="stats progress" />
+  
+</svg>

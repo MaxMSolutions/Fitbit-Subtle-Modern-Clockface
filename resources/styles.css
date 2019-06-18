@@ -1,0 +1,223 @@
+.background {
+  viewport-fill: '#111111';
+  font-family: Colfax-Medium;
+}
+
+.time {
+  font-size: 60;
+  text-length: 2;
+  text-anchor: middle;
+  y: 21%;
+}
+
+  #hours {
+    x: 16%;
+    fill: '#d48f08';
+  }
+
+  #minutes {
+    fill: '#868686';
+    x: 37%
+  }
+
+  #date {
+    font-family: Colfax-Regular;
+    font-size: 24;
+    text-length: 32;
+    text-anchor: middle;
+    x: 27%;
+    y: 32%;
+    fill: '#868686';
+  }
+
+.divider {
+  x: 6%;
+  y: 36%;
+  width: 40%;
+  height: 1%;
+  fill: '#868686';
+}
+
+#logo {
+  x: 11%;
+  y: 96;
+  width: 12%;
+  height: 9%;
+}
+
+/* ------- BATTERY ------- */
+#battery {
+  x: 32%;
+  y: 46%;
+  fill: '#868686';
+  font-family: Colfax-Regular;
+  font-size: 20;
+}
+
+#batteryMeter {
+  x: 99;
+  y: 104;
+  height: 10;
+  width: 7;
+  fill: "#111111";
+}
+
+/* --------  HRM  -------- */
+.heart {
+  x: 17%;
+  y: 173;
+  height: 30;
+  width: 30;
+  fill: "#821414";
+}
+
+#heartRate {
+  x: 27%;
+  y: 79%;
+  fill: '#868686';
+  font-family: Colfax-Regular;
+  font-size: 30;
+}
+
+#hrCircle {
+  x: 79;
+  y: 70%;
+  height: 15%;
+  width: 15%;
+}
+
+.hrCircleOuter {
+  fill: "#2f2f2f";
+  cx: "30%";
+  cy: "30%";
+  r: 47;
+}
+
+.hrCircleInner {
+  fill: "#111111";
+  cx: "30%";
+  cy: "30%";
+  r: 45;
+}
+
+/* -------- STATS -------- */
+
+.icon {
+  width: 18;
+  height: 18;
+  fill: '#d48f08';
+  x: 55%;
+}
+
+  .battery {
+    x: 27%;
+    y: 99;
+    fill: "#0d8050";
+  }
+
+  .steps {
+    y: 6%;
+  }
+
+  .distance {
+    y: 25%;
+  }
+
+  .calories {
+    y: 43%;
+  }
+
+  .active {
+    y: 61%;
+  }
+
+  .elevation {
+    y: 79%;
+  }
+
+.stats {
+  x: 61%;
+  y: 10%;
+  width: 30%;
+  text-length: 10;
+  fill: '#868686';
+  font-family: Colfax-Regular;
+  font-size: 20;
+}
+
+  #stepsValue {
+    y: 12%;
+    fill: '#868686';
+    text-length: 10;
+  }
+
+  #distanceValue {
+    y: 31%;
+    fill: '#868686';
+    text-length: 10;
+  }
+
+  #caloriesValue {
+    y: 49%;
+    fill: '#868686';
+    text-length: 10;
+  }
+
+  #activeMinutesValue {
+    y: 67%;
+    fill: '#868686';
+    text-length: 10;
+  }
+
+  #elevationGainValue {
+    y: 85%;
+    fill: '#868686';
+    text-length: 10;
+  }
+
+
+.progress {
+  font-family: Colfax-Bold;
+  fill: '#573263';
+  text-length: 10;
+}
+  
+  .empty {
+    fill: '#2f2f2f';
+    text-length: 10;
+  }
+
+  #stepsProgress {
+    y: 20%;
+  }
+  #stepsProgressEmpty {
+    y: 20%;
+  }
+
+  #distanceProgress {
+    y: 38%;
+  }
+  #distanceProgressEmpty {
+    y: 38%;
+  }
+
+  #caloriesProgress {
+    y: 56%;
+  }
+  #caloriesProgressEmpty {
+    y: 56%;
+  }
+
+  #activeMinutesProgress {
+    y: 74%;
+  }
+  #activeMinutesProgressEmpty {
+    y: 74%;
+  }
+
+  #elevationGainProgress {
+    y: 92%;
+  }
+  #elevationGainProgressEmpty {
+    y: 92%;
+  }
