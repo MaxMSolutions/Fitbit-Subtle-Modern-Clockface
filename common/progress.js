@@ -30,8 +30,7 @@ export function set(name, percent) {
   barCount = barCount >= 10 ? 10 : barCount;
   
   cache[name].maxBars = barCount;
-  if (cache[name].bars === undefined)
-    cache[name].bars = 0;
+  cache[name].bars = 0;
   
   animateBarsIn(name);
 }
@@ -58,5 +57,5 @@ function animateBarsIn(statName, barControl) {
         animateBarsIn(statName);
       }
 
-    }, 175);
+    }, 150);
 }

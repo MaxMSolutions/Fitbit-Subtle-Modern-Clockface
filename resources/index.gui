@@ -10,7 +10,7 @@
   
   <svg id="hrCircle">
     <circle class="hrCircleOuter">
-      <animate id="hrAnimation" attributeName="fill" easing="ease-in-out" to="#2f2f2f" from="#821414" dur=".5" final="restore" repeatCount="9999" />
+      <animate id="hrAnimation" attributeName="fill" easing="ease-in-out" to="#2f2f2f" from="#821414" dur=".5" final="restore" repeatCount="indefinite" />
     </circle>
     <circle class="hrCircleInner"/>
   </svg>
